@@ -1126,7 +1126,7 @@
 		}
 	}
 
-	class TagFilterNodeIterator implements Iterator, Countable
+	class TagFilterNodeIterator implements \Iterator, \Countable
 	{
 		private $tfn, $ids, $x, $y;
 
